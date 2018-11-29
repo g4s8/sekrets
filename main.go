@@ -21,7 +21,7 @@ type secrets struct {
 	Version  string            `yaml:"apiVersion"`
 	Kind     string            `yaml:"kind"`
 	Metadata metadata          `yaml:"metadata"`
-	Type     string            `yaml:"Type"`
+	Type     string            `yaml:"type"`
 	Data     map[string]string `yaml:"data"`
 }
 
